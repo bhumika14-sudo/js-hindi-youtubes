@@ -16,4 +16,4 @@ console.log(typeof valueInNumber)
 
 let isLoggedIn = 1;
 let booleanisLoggedIn = Boolean(isLoggedIn)
-console.log(typeof booleanisLoggedIn )
+console.log(typeof isLoggedIn)
