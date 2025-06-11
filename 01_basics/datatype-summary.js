@@ -43,6 +43,33 @@ const myFunction = function(){
 
 console.log(typeof myFunction)
 
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) , Heap (Non-Primitive)
+
+let myName = "bhumika"
+let anotherName = myName 
+console.log(anotherName)
+anotherName = "raghav" 
+console.log(myName)
+
+
+//let userOne(stack) = (heap){
+  //  email : "user@gmail.com",
+  //  upi : "user@ybl" }
+
+  let userOne = userTwo
+  userTwo.email = "bhumika@gmail.com"
+
+  console.log(userOne.email)
+  console.log(userTwo.email)
+
+  //dono m value bhumika wali hi aygi kyuki  value heap m store hui h Non-Primitive datatype 
+
+
+
+
+
 
 
 
